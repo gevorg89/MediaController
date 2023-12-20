@@ -48,6 +48,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
+    //noinspection GradleDependency server work with this version
     implementation ("io.socket:socket.io-client:1.0.1")
     implementation ("com.google.code.gson:gson:2.10")
 }
